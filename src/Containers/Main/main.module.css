@@ -1,0 +1,130 @@
+.overlayBox{
+position: fixed;    
+z-index:100;
+text-align: center;
+left: 1%;
+right: 1%;
+width:20%;
+top:8%;
+height:92%;
+border:1px solid white;
+margin:auto;        
+}
+
+.fighterName{
+    border: 1px solid yellow;
+    margin-top:10px;
+    text-transform: capitalize;
+  }
+  
+  .fighterName h1{
+    text-align:center;
+    font-size:40px;
+    border:solid black 1px;
+    color:white;
+  }
+
+  .leftGridContainer {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "Picture CardInfo";
+    margin:10px;
+    height:500px;
+  }
+
+  .rightGridContainer {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "CardInfo Picture";
+    margin:10px;
+    justify-items:right;
+
+  }
+  
+  .pictureContainer { 
+    grid-area: Picture;
+    height:430px;
+    width:100%;
+    border:5px solid #222;
+    background:white;
+  }
+  
+  .infoContainer{ 
+    grid-area: CardInfo; 
+    border: 1px solid white;
+    width:70%;
+    height:500px;
+  }
+
+  .winnerBtn{
+    border:black 1px solid;
+    height:80px;
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+       justify-content: center
+    
+    }
+
+    button:disabled,
+    button[disabled],
+    button[disabled]:hover{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+    .tieButton{
+      height:92px;
+      border: 1px solid black;
+      margin-top:60px;
+     display: flex;
+      flex-direction: column;
+      align-items: center;
+       justify-content: center
+    }
+
+    .Test{
+      height:150px;
+      text-align:right;
+      padding-right:100px;
+      }
+
+      .TestDc{
+        height:150px;
+       
+        text-align:left;
+        padding-left:100px;
+      }
+
+      .backgroundLogo{
+        background: #ffffff;
+      }
+
+      .bottomVs{
+        color:white;
+        padding-top:100px;
+      }
+
+      .bottomVs h1{
+        font-size: 50px;
+      }
+
+      .recordStyle{
+        font-size:20px;
+        float:left;
+        color:black;
+        margin-top:10px;
+        padding-left:60px;
+      }
+      
+      .recordStyleDc{
+        font-size:20px;
+        float: right;
+        color:black;
+        margin-top:10px;
+        padding-right:60px;
+      }

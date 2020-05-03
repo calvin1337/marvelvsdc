@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React/marvelvsdc/static/css/main.bb9e5646.chunk.css",
+    "main.js": "/React/marvelvsdc/static/js/main.b3a29204.chunk.js",
+    "main.js.map": "/React/marvelvsdc/static/js/main.b3a29204.chunk.js.map",
+    "runtime-main.js": "/React/marvelvsdc/static/js/runtime-main.fe2c7c6c.js",
+    "runtime-main.js.map": "/React/marvelvsdc/static/js/runtime-main.fe2c7c6c.js.map",
+    "static/css/2.69121389.chunk.css": "/React/marvelvsdc/static/css/2.69121389.chunk.css",
+    "static/js/2.22ea8ffd.chunk.js": "/React/marvelvsdc/static/js/2.22ea8ffd.chunk.js",
+    "static/js/2.22ea8ffd.chunk.js.map": "/React/marvelvsdc/static/js/2.22ea8ffd.chunk.js.map",
+    "index.html": "/React/marvelvsdc/index.html",
+    "precache-manifest.f2994107935d6d13e86dba3500a27fa2.js": "/React/marvelvsdc/precache-manifest.f2994107935d6d13e86dba3500a27fa2.js",
+    "service-worker.js": "/React/marvelvsdc/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/React/marvelvsdc/static/css/2.69121389.chunk.css.map",
+    "static/css/main.bb9e5646.chunk.css.map": "/React/marvelvsdc/static/css/main.bb9e5646.chunk.css.map",
+    "static/js/2.22ea8ffd.chunk.js.LICENSE.txt": "/React/marvelvsdc/static/js/2.22ea8ffd.chunk.js.LICENSE.txt",
+    "static/media/marvel.png": "/React/marvelvsdc/static/media/marvel.28721de9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe2c7c6c.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.22ea8ffd.chunk.js",
+    "static/css/main.bb9e5646.chunk.css",
+    "static/js/main.b3a29204.chunk.js"
+  ]
+}

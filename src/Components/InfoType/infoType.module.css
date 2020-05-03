@@ -1,0 +1,15 @@
+.taleTape{
+    border: 1px solid black;
+    height:auto;
+    width:80%;
+    margin:auto;
+    background:#eee;
+    margin-top: 50px;
+
+  }
+  
+  .taleTapeType{
+  border: 1px black solid;
+    display: block;
+    height:50px
+  }
