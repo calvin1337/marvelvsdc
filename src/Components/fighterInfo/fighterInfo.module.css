@@ -26,3 +26,27 @@
     text-align: left;
     padding:5px;
     }
+
+    @media  (max-width: 375px) {
+      .infoBlock{
+          margin:0;
+          height: 20px;
+          width:50vw;
+            }
+            
+        .infoBlock h1{
+          font-size: 10px;
+        }
+        .infoContainer{
+          text-align: center;
+        }
+        .power{
+          padding:none;
+          height: 110px;
+          font-size: 8px;
+        }
+
+        .infoContainer{
+          width:100%;
+        }
+    }

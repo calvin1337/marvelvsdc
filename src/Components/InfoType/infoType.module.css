@@ -18,3 +18,7 @@
   .taleTapeType h1{
     font-size:2rem;
   }
+
+  @media  (max-width: 375px) {
+    
+  }

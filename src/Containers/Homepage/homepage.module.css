@@ -75,4 +75,18 @@ height:120px;
 	top:1px;
 }
 
-        
+      
+@media  (max-width: 375px) {
+  .container{
+    
+   width:100vw
+  }
+
+  .left{
+    width:50vw;
+  }
+
+  .right{
+    width:50vw;
+  }
+}

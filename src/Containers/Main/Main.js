@@ -243,6 +243,11 @@ export class Main extends Component {
 
             <div className={styles.left}>
                 <div className={main.fighterName}>
+                <p className={main.recordMobile}>
+
+                {`Win ${this.state.currentMarvelRecord.win}  Draw ${this.state.currentMarvelRecord.draw} Loss ${this.state.currentMarvelRecord.loss}`}
+
+</p>    
             <h1>
             <span className={main.recordStyle}>
                 {`Win ${this.state.currentMarvelRecord.win}  Draw ${this.state.currentMarvelRecord.draw} Loss ${this.state.currentMarvelRecord.loss}`}
@@ -269,6 +274,8 @@ export class Main extends Component {
                         ability={this.state.currentMarvel.ability}
                         powers={this.state.currentMarvel.powers}
                         fighterStyle="marvel"/>
+                    <Button disabled={this.state.disableBtn} onClick={this.marvelWin} btnType="winBtnMobile">Wins</Button>
+
                     </div>
                 </div>
                 <div className={main.Test}>
@@ -277,6 +284,12 @@ export class Main extends Component {
             </div>
             <div className={styles.right}>
                 <div className={main.fighterName}>
+                    <p className={main.recordMobile}>
+
+                    {`Win ${this.state.currentDcRecord.win} Draw ${this.state.currentDcRecord.draw} Loss ${this.state.currentDcRecord.loss} `}
+
+                    </p>
+                    
                 <h1><span className={main.recordStyleDc}>
                     {`Win ${this.state.currentDcRecord.win} Draw ${this.state.currentDcRecord.draw} Loss ${this.state.currentDcRecord.loss} `}</span>
                     {this.state.currentDc.heroname}</h1>
@@ -305,11 +318,13 @@ export class Main extends Component {
                      ability={this.state.currentDc.ability}
                      powers={this.state.currentDc.powers}
                     fighterStyle="dc"/>
+                    <Button disabled={this.state.disableBtn} onClick={this.dcWin} btnType="winBtnMobile">Wins</Button>
 
                     </div>
+
                 </div>
                 <div className={main.TestDc}>
-                <img src="https://vignette.wikia.nocookie.net/marvel_dc/images/1/12/New_DC_logo.png/revision/latest?cb=20130213193308" width="300" height="120"></img>
+                <img className={main.backgroundLogo} id="bnw" src="https://vignette.wikia.nocookie.net/marvel_dc/images/1/12/New_DC_logo.png/revision/latest?cb=20130213193308" width="300" height="120"></img>
 
                 </div> 
             </div>
@@ -333,6 +348,16 @@ export class Main extends Component {
 
             <div className={main.bottomVs}>
                 <h1>VS</h1>
+            </div>
+
+        </div>
+        <div className={main.mobileOverlay}>
+            <div className={main.vsMobile}>
+                <h1>VS</h1>
+            </div> 
+            <div className={main.tieBtnMobile}>
+            <Button disabled={this.state.disableBtn} onClick={this.tieGame} btnType="tieBtnMobile">Tie</Button>
+
             </div>
 
         </div>
