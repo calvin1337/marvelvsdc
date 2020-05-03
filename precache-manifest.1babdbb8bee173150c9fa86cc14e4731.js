@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8482a5b4270d499aa07b537978dd8b54",
+    "revision": "f7bb2591dbad10f7c09edcc93ccab691",
     "url": "/marvelvsdc/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marvelvsdc/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "9daa3133b04c7373750d",
-    "url": "/marvelvsdc/static/css/main.e80e156f.chunk.css"
+    "revision": "2b0ee296216c30722207",
+    "url": "/marvelvsdc/static/css/main.55a1fe68.chunk.css"
   },
   {
     "revision": "1636854229b998638080",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marvelvsdc/static/js/2.ec5740de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9daa3133b04c7373750d",
+    "revision": "2b0ee296216c30722207",
     "url": "/marvelvsdc/static/js/main.7e144495.chunk.js"
   },
   {
