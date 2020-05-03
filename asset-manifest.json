@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/marvelvsdc/static/css/main.53e3ab4d.chunk.css",
+    "main.css": "/marvelvsdc/static/css/main.4cc1a71c.chunk.css",
     "main.js": "/marvelvsdc/static/js/main.7e144495.chunk.js",
     "main.js.map": "/marvelvsdc/static/js/main.7e144495.chunk.js.map",
     "runtime-main.js": "/marvelvsdc/static/js/runtime-main.7b292817.js",
@@ -9,10 +9,10 @@
     "static/js/2.ec5740de.chunk.js": "/marvelvsdc/static/js/2.ec5740de.chunk.js",
     "static/js/2.ec5740de.chunk.js.map": "/marvelvsdc/static/js/2.ec5740de.chunk.js.map",
     "index.html": "/marvelvsdc/index.html",
-    "precache-manifest.f49f35177ea517baa3351d3eb368124c.js": "/marvelvsdc/precache-manifest.f49f35177ea517baa3351d3eb368124c.js",
+    "precache-manifest.9a2df2f9a6da11342364a88055130f53.js": "/marvelvsdc/precache-manifest.9a2df2f9a6da11342364a88055130f53.js",
     "service-worker.js": "/marvelvsdc/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/marvelvsdc/static/css/2.69121389.chunk.css.map",
-    "static/css/main.53e3ab4d.chunk.css.map": "/marvelvsdc/static/css/main.53e3ab4d.chunk.css.map",
+    "static/css/main.4cc1a71c.chunk.css.map": "/marvelvsdc/static/css/main.4cc1a71c.chunk.css.map",
     "static/js/2.ec5740de.chunk.js.LICENSE.txt": "/marvelvsdc/static/js/2.ec5740de.chunk.js.LICENSE.txt",
     "static/media/marvel.png": "/marvelvsdc/static/media/marvel.28721de9.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.7b292817.js",
     "static/css/2.69121389.chunk.css",
     "static/js/2.ec5740de.chunk.js",
-    "static/css/main.53e3ab4d.chunk.css",
+    "static/css/main.4cc1a71c.chunk.css",
     "static/js/main.7e144495.chunk.js"
   ]
 }
