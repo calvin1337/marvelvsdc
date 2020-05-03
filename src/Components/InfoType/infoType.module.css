@@ -11,5 +11,10 @@
   .taleTapeType{
   border: 1px black solid;
     display: block;
-    height:50px
+    height:60px;
+    
+  }
+
+  .taleTapeType h1{
+    font-size:2rem;
   }

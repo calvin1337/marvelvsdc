@@ -80,7 +80,7 @@ margin:auto;
     .tieButton{
       height:92px;
       border: 1px solid black;
-      margin-top:60px;
+      margin-top:10px;
      display: flex;
       flex-direction: column;
       align-items: center;
@@ -88,13 +88,13 @@ margin:auto;
     }
 
     .Test{
-      height:150px;
+      height:100px;
       text-align:right;
       padding-right:100px;
       }
 
       .TestDc{
-        height:150px;
+        height:100px;
        
         text-align:left;
         padding-left:100px;
@@ -106,7 +106,7 @@ margin:auto;
 
       .bottomVs{
         color:white;
-        padding-top:100px;
+        margin-top:30px;
       }
 
       .bottomVs h1{

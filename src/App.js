@@ -4,6 +4,7 @@ import NavBar from "./Components/Navbar/Navbar";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Homepage from "./Containers/Homepage/Homepage"
 import Main from "./Containers/Main/Main"
+import "./App.css"
 export class App extends Component {
 
 

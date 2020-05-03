@@ -272,7 +272,7 @@ export class Main extends Component {
                     </div>
                 </div>
                 <div className={main.Test}>
-                <img id="bnw" className={main.backgroundLogo} src={marvelLogo} width="300" height="150" />
+                <img id="bnw" className={main.backgroundLogo} src={marvelLogo} width="300" height="120" />
                 </div> 
             </div>
             <div className={styles.right}>
@@ -309,7 +309,7 @@ export class Main extends Component {
                     </div>
                 </div>
                 <div className={main.TestDc}>
-                <img src="https://vignette.wikia.nocookie.net/marvel_dc/images/1/12/New_DC_logo.png/revision/latest?cb=20130213193308" width="300" height="150"></img>
+                <img src="https://vignette.wikia.nocookie.net/marvel_dc/images/1/12/New_DC_logo.png/revision/latest?cb=20130213193308" width="300" height="120"></img>
 
                 </div> 
             </div>
