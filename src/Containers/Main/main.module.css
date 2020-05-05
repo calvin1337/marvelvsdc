@@ -136,6 +136,9 @@ margin:auto;
       .mobileOverlay{
         display: none;
       }
+      .recordMobile{
+        display:none;
+      }
 
       @media  (max-width: 375px) {
         .fighterName h1{
@@ -146,6 +149,9 @@ margin:auto;
           height:30px;
           margin:0;
         }
+        .recordMobile{
+          display:block;
+        }
 
         .recordStyle{
           padding:none;
@@ -154,7 +160,7 @@ margin:auto;
           max-width: 50vw;
           width:50vw;
           grid-template-columns: 1fr;
-          grid-template-rows: 50vh 50vh;
+          grid-template-rows: 1fr;
           grid-template-areas: "Picture" "CardInfo";
           margin:0;
         }
@@ -169,12 +175,12 @@ margin:auto;
         .rightGridContainer{
           width:50vw;
           grid-template-columns: 1fr ;
-          grid-template-rows: 50vh 50vh;
+          grid-template-rows: 1fr ;
           grid-template-areas: "Picture" "CardInfo";
           
           margin:0;
         }
-
+        
         .pictureContainer{
           height:50vh;
           padding:10px;
@@ -191,6 +197,7 @@ margin:auto;
 
         .infoContainer{
           width:50vw;
+          height:50%;
         }
 
         .recordStyle{
@@ -212,7 +219,7 @@ margin:auto;
         top:8%;
         height:92%;
         margin:auto;  
-        display: block;
+        display: none;
       }
       
       .vsMobile{
@@ -246,5 +253,17 @@ margin:auto;
 
       .fighterName h1{
         border:none;
+      }
+
+      .container{
+        height:100%;
+      }
+
+      .Test{
+        display:none;
+      }
+    
+      .TestDc{
+        display:none;
       }
     }

@@ -21,3 +21,17 @@
     height:500px;
     padding: 50px;
 }
+
+@media  (max-width: 375px){
+   .modalBox{
+       width:250px;
+       height:250px;
+       padding:5px;
+     }
+     .modalBox h1{
+         font-size: 20px;
+     }
+     .modalBox h3{
+         font-size:16px;
+     }
+}

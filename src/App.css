@@ -2,3 +2,15 @@ body{
     max-height: 100vh !important;
     overflow: hidden;
 }
+
+
+@media  (max-width: 375px) {
+    html, body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height:100%;
+      }
+      body {
+        position: relative;
+      }
+}
