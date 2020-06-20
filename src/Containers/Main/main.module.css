@@ -7,12 +7,10 @@ right: 1%;
 width:20%;
 top:8%;
 height:92%;
-border:1px solid white;
 margin:auto;        
 }
 
 .fighterName{
-    border: 1px solid yellow;
     margin-top:10px;
     text-transform: capitalize;
   }
@@ -20,7 +18,6 @@ margin:auto;
   .fighterName h1{
     text-align:center;
     font-size:40px;
-    border:solid black 1px;
     color:white;
   }
 
@@ -59,13 +56,11 @@ margin:auto;
   
   .infoContainer{ 
     grid-area: CardInfo; 
-    border: 1px solid white;
     width:70%;
     height:500px;
   }
 
   .winnerBtn{
-    border:black 1px solid;
     height:80px;
     display: flex;
      flex-direction: column;
@@ -83,7 +78,6 @@ margin:auto;
 }
     .tieButton{
       height:92px;
-      border: 1px solid black;
       margin-top:10px;
      display: flex;
       flex-direction: column;
@@ -140,7 +134,9 @@ margin:auto;
         display:none;
       }
 
-      @media  (max-width: 375px) {
+      
+
+      @media  (max-width: 600px) {
         .fighterName h1{
           font-size:16px;
           text-align: center;
@@ -219,7 +215,7 @@ margin:auto;
         top:8%;
         height:92%;
         margin:auto;  
-        display: none;
+        display:block;
       }
       
       .vsMobile{
@@ -267,3 +263,5 @@ margin:auto;
         display:none;
       }
     }
+
+  

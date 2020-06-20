@@ -227,7 +227,7 @@ width:50%;
 }
 
 
-@media  (max-width: 375px) {
+@media  (max-width: 600px) {
 	.winBtn{
 		display:none;
 	}

@@ -27,7 +27,7 @@
     padding:5px;
     }
 
-    @media  (max-width: 375px) {
+    @media  (max-width: 600px) {
       .infoBlock{
           margin:0;
           height: 20px;
@@ -42,7 +42,8 @@
         }
         .power{
           padding:none;
-          height: 110px;
+          height: 10rem;
+          min-height:110px;
           font-size: 8px;
         }
 
