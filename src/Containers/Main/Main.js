@@ -318,7 +318,10 @@ export class Main extends Component {
                      ability={this.state.currentDc.ability}
                      powers={this.state.currentDc.powers}
                     fighterStyle="dc"/>
+                    <div >
                     <Button disabled={this.state.disableBtn} onClick={this.dcWin} btnType="winBtnMobile">Wins</Button>
+
+                    </div>
 
                     </div>
 

@@ -29,7 +29,6 @@ margin:auto;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     grid-template-rows: 1fr;
-    gap: 1px 1px;
     grid-template-areas: "Picture CardInfo";
     margin:10px;
     height:500px;
@@ -39,7 +38,6 @@ margin:auto;
     display: grid;
     grid-template-columns: 1fr 0.5fr;
     grid-template-rows: 1fr;
-    gap: 1px 1px;
     grid-template-areas: "CardInfo Picture";
     margin:10px;
     justify-items:right;
@@ -136,7 +134,7 @@ margin:auto;
 
       
 
-      @media  (max-width: 600px) {
+      @media only screen and (max-width: 767px) {
         .fighterName h1{
           font-size:16px;
           text-align: center;
@@ -215,7 +213,7 @@ margin:auto;
         top:8%;
         height:92%;
         margin:auto;  
-        display:block;
+        display:none;
       }
       
       .vsMobile{
@@ -264,4 +262,11 @@ margin:auto;
       }
     }
 
-  
+    @media only screen and (max-width: 991px) and (min-width: 768px) {
+
+    }
+
+
+    @media only screen and (min-width: 992px) and (max-width:1199px) {
+
+    }

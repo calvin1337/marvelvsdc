@@ -27,27 +27,62 @@
     padding:5px;
     }
 
-    @media  (max-width: 600px) {
+    @media  only screen and (max-width: 767px) {
       .infoBlock{
           margin:0;
           height: 20px;
           width:50vw;
+          
             }
             
         .infoBlock h1{
-          font-size: 10px;
+          font-size: 0.8rem;
         }
         .infoContainer{
           text-align: center;
         }
         .power{
           padding:none;
-          height: 10rem;
+          height: 12rem;
           min-height:110px;
           font-size: 8px;
+          
         }
 
         .infoContainer{
           width:100%;
         }
+
+        .infoBlock p {
+          font-size:0.75rem
+        }
+    }
+
+    @media only screen and (max-width:400px){
+      .infoBlock p {
+        font-size:0.6rem
+      }
+      .infoBlock h1{
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+        
+      }
+
+      .infoBlock{
+        margin:0;
+        min-height: 20px;
+        width:50vw;
+        height:auto;
+          }
+      
+      .power{
+        min-height: 150px;
+        height:150px;
+      }
+    }
+
+    @media only screen and (max-width:400px){
+      .infoBlock p {
+        font-size:0.5rem
+      }
     }
